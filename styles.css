@@ -19,4 +19,9 @@
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
     font-size: 60%; /* controle das medidas rem */
+
+}
+body{
+    background-color: var(--color-background);
+    font-size: 1rem;
 }
