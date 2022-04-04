@@ -38,6 +38,7 @@
 .page-header .header-content {
     width: 90%;
     margin: 3.2rem auto;
+    position:relative;
 }
 
 .page-header .header-content strong {
@@ -219,7 +220,10 @@
     
 
 #search-teachers{
-    
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    position:absolute;
 }
 
 }
